@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>user</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+	
+    <description></description>
+    <display-name>LoginClass</display-name>
+    <servlet-name>LoginClass</servlet-name>
+    <servlet-class>exp7.LoginClass</servlet-class>
+	<init-param>
+	 <param-name>divya</param-name>
+	 <param-value>1216</param-value>
+	 </init-param>
+	 <init-param>
+	 <param-name>santhoshi</param-name>
+	 <param-value>1217</param-value>
+	 </init-param>
+	 <init-param>
+	 <param-name>prathyusha</param-name>
+	 <param-value>1218</param-value>
+	 </init-param>
+	 <init-param>
+	 <param-name>prabha</param-name>
+	 <param-value>1219</param-value>
+	 </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginClass</servlet-name>
+    <url-pattern>/LoginClass</url-pattern>
+  </servlet-mapping>
+</web-app>
